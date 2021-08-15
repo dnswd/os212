@@ -3,7 +3,7 @@ layout: "layout"
 title: REPORT
 ---
 
-## Week: W00 Rev: 14-Aug-2021 21:09
+## Week: W00 Rev: 15-Aug-2021 15:23
 
 * aceyoga: [TARBALL](aceyoga.tar.bz2.txt)<br>
 * cbkadal: [GH](https://github.com/cbkadal/os212/) [GHP](https://cbkadal.github.io/os212/) [LOG](https://cbkadal.github.io/os212/TXT/mylog.txt) [TARBALL](cbkadal.tar.bz2.txt)<br>
