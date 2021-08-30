@@ -1,4 +1,4 @@
-# Log Format
+# Log Format YAYAYAYA
 # ZCZC WEEK# MINUTES LogCode Description
 # LogCode: https://osp4diss.vlsm.org/ETC/logCodes.txt
 ZCZC W00  05 L00 General, etc.
