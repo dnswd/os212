@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# START Sun 12 Sep 2021 03:06:26 WIB
 
 FILES="my*.txt my*.sh"
 SHA="SHA256SUM"
