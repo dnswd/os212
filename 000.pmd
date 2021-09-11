@@ -8,16 +8,19 @@ title:  "GitHub Page Configuration Files"
 (> TXT/myscript.sh <)
 ```
 
+<br>
 ### myrank.txt
 ```
 (> TXT/myrank.txt <)
 ```
 
+<br>
 ### mylog.txt
 ```
 (> TXT/mylog.txt <)
 ```
 
+<br>
 ### _config.yml
 
 ```
