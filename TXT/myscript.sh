@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV00 Sun 12 Sep 2021 03:06:26 WIB
 # START Sun 12 Sep 2021 03:06:26 WIB
 
 FILES="my*.txt my*.sh"
