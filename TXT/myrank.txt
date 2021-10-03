@@ -5,3 +5,6 @@ ZCZC W02 cbkadal
 ZCZC W03 alibaba 
 ZCZC W03 kutakada
 ZCZC W03 cbkadal
+ZCZC W04 alibaba 
+ZCZC W04 kutakada
+ZCZC W04 cbkadal
