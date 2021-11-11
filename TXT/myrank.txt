@@ -17,3 +17,12 @@ ZCZC W06 cbkadal
 ZCZC W07 alibaba 
 ZCZC W07 kutakada
 ZCZC W07 cbkadal
+ZCZC W08 alibaba 
+ZCZC W08 kutakada
+ZCZC W08 cbkadal
+ZCZC W09 alibaba 
+ZCZC W09 kutakada
+ZCZC W09 cbkadal
+ZCZC W10 alibaba 
+ZCZC W10 kutakada
+ZCZC W10 cbkadal
