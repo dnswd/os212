@@ -5,14 +5,16 @@
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+# REV03 Mon 15 Nov 2021 11:22:19 WIB
 # REV02 Sun 19 Sep 2021 15:44:11 WIB
 # REV01 Sun 12 Sep 2021 03:10:00 WIB
-# START Mon 28 Sep 21:05:04 WIB 2020
+# START Mon 28 Sep 2020 21:05:04 WIB
 
 # ATTN:
 # You new to set "REC2" with your own Public-Key Identity!
 # Check it out with "gpg --list-key"
 
+WEEK="08"
 REC2="cbkadal@localhost"
 REC1="operatingsystems@vlsm.org"
 FILES="my*.asc my*.txt my*.sh"
@@ -24,7 +26,7 @@ for II in W?? ; do
     [ -d $II ] || continue
     TARFILE=my$II.tar.bz2
     TARFASC=$TARFILE.asc
-    rm -f $TARFILE $TARFASC
+    rm -vf $TARFILE $TARFASC
     echo "tar cfj $TARFILE $II/"
     tar cfj $TARFILE $II/
     echo "gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE"
@@ -32,10 +34,9 @@ for II in W?? ; do
 done
 popd
 
-for II in $HOME/RESULT/myW*.tar.bz2.asc ; do
-   echo "Check and move $II..."
-   [ -f $II ] && mv -f $II .
-done
+II="$HOME/RESULT/myW$WEEK.tar.bz2.asc"
+echo "Check and move $II..."
+[ -f $II ] && mv -vf $II .
 
 echo "rm -f $SHA $SHA.asc"
 rm -f $SHA $SHA.asc
