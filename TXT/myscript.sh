@@ -5,6 +5,7 @@
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+# REV04 Sat 20 Nov 2021 19:10:06 WIB
 # REV03 Mon 15 Nov 2021 11:22:19 WIB
 # REV02 Sun 19 Sep 2021 15:44:11 WIB
 # REV01 Sun 12 Sep 2021 03:10:00 WIB
@@ -14,7 +15,7 @@
 # You new to set "REC2" with your own Public-Key Identity!
 # Check it out with "gpg --list-key"
 
-WEEK="08"
+WEEK="09"
 REC2="cbkadal@localhost"
 REC1="operatingsystems@vlsm.org"
 FILES="my*.asc my*.txt my*.sh"
